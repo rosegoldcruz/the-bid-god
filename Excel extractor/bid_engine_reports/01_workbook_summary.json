@@ -1,0 +1,880 @@
+{
+  "workbook": {
+    "file": "C:\\Users\\Vulpi\\Downloads\\Excel extractor\\Multi-Family Master Sheet V6 - Good, Better, Best Frameless Boxes - Copy.xlsx",
+    "sheet_count": 59,
+    "sheets": [
+      {
+        "name": "Summary Sheet",
+        "sheetId": "1",
+        "state": "visible",
+        "path": "xl/worksheets/sheet1.xml"
+      },
+      {
+        "name": "Framed Catalog List Price",
+        "sheetId": "2",
+        "state": "hidden",
+        "path": "xl/worksheets/sheet2.xml"
+      },
+      {
+        "name": "Framed Accessory List Price",
+        "sheetId": "3",
+        "state": "hidden",
+        "path": "xl/worksheets/sheet3.xml"
+      },
+      {
+        "name": "Frameless Catalog List Price",
+        "sheetId": "4",
+        "state": "hidden",
+        "path": "xl/worksheets/sheet4.xml"
+      },
+      {
+        "name": "Pwood & PB List",
+        "sheetId": "5",
+        "state": "hidden",
+        "path": "xl/worksheets/sheet5.xml"
+      },
+      {
+        "name": "Frameless Accessory List Price",
+        "sheetId": "6",
+        "state": "hidden",
+        "path": "xl/worksheets/sheet6.xml"
+      },
+      {
+        "name": "Margin Data",
+        "sheetId": "7",
+        "state": "hidden",
+        "path": "xl/worksheets/sheet7.xml"
+      },
+      {
+        "name": "List",
+        "sheetId": "8",
+        "state": "hidden",
+        "path": "xl/worksheets/sheet8.xml"
+      },
+      {
+        "name": "TOTAL CABS AND TRIM (LOCKED)",
+        "sheetId": "59",
+        "state": "hidden",
+        "path": "xl/worksheets/sheet9.xml"
+      },
+      {
+        "name": "Unit Type",
+        "sheetId": "9",
+        "state": "visible",
+        "path": "xl/worksheets/sheet10.xml"
+      },
+      {
+        "name": "Unit Type (2)",
+        "sheetId": "10",
+        "state": "visible",
+        "path": "xl/worksheets/sheet11.xml"
+      },
+      {
+        "name": "Unit Type (3)",
+        "sheetId": "11",
+        "state": "visible",
+        "path": "xl/worksheets/sheet12.xml"
+      },
+      {
+        "name": "Unit Type (4)",
+        "sheetId": "12",
+        "state": "visible",
+        "path": "xl/worksheets/sheet13.xml"
+      },
+      {
+        "name": "Unit Type (5)",
+        "sheetId": "13",
+        "state": "visible",
+        "path": "xl/worksheets/sheet14.xml"
+      },
+      {
+        "name": "Unit Type (6)",
+        "sheetId": "14",
+        "state": "visible",
+        "path": "xl/worksheets/sheet15.xml"
+      },
+      {
+        "name": "Unit Type (7)",
+        "sheetId": "15",
+        "state": "visible",
+        "path": "xl/worksheets/sheet16.xml"
+      },
+      {
+        "name": "Unit Type (8)",
+        "sheetId": "16",
+        "state": "visible",
+        "path": "xl/worksheets/sheet17.xml"
+      },
+      {
+        "name": "Unit Type (9)",
+        "sheetId": "17",
+        "state": "visible",
+        "path": "xl/worksheets/sheet18.xml"
+      },
+      {
+        "name": "Unit Type (10)",
+        "sheetId": "18",
+        "state": "visible",
+        "path": "xl/worksheets/sheet19.xml"
+      },
+      {
+        "name": "Unit Type (11)",
+        "sheetId": "19",
+        "state": "visible",
+        "path": "xl/worksheets/sheet20.xml"
+      },
+      {
+        "name": "Unit Type (12)",
+        "sheetId": "20",
+        "state": "visible",
+        "path": "xl/worksheets/sheet21.xml"
+      },
+      {
+        "name": "Unit Type (13)",
+        "sheetId": "21",
+        "state": "visible",
+        "path": "xl/worksheets/sheet22.xml"
+      },
+      {
+        "name": "Unit Type (14)",
+        "sheetId": "22",
+        "state": "visible",
+        "path": "xl/worksheets/sheet23.xml"
+      },
+      {
+        "name": "Unit Type (15)",
+        "sheetId": "23",
+        "state": "visible",
+        "path": "xl/worksheets/sheet24.xml"
+      },
+      {
+        "name": "Unit Type (16)",
+        "sheetId": "24",
+        "state": "visible",
+        "path": "xl/worksheets/sheet25.xml"
+      },
+      {
+        "name": "Unit Type (17)",
+        "sheetId": "25",
+        "state": "visible",
+        "path": "xl/worksheets/sheet26.xml"
+      },
+      {
+        "name": "Unit Type (18)",
+        "sheetId": "26",
+        "state": "visible",
+        "path": "xl/worksheets/sheet27.xml"
+      },
+      {
+        "name": "Unit Type (19)",
+        "sheetId": "27",
+        "state": "visible",
+        "path": "xl/worksheets/sheet28.xml"
+      },
+      {
+        "name": "Unit Type (20)",
+        "sheetId": "28",
+        "state": "visible",
+        "path": "xl/worksheets/sheet29.xml"
+      },
+      {
+        "name": "Unit Type (21)",
+        "sheetId": "29",
+        "state": "visible",
+        "path": "xl/worksheets/sheet30.xml"
+      },
+      {
+        "name": "Unit Type (22)",
+        "sheetId": "30",
+        "state": "visible",
+        "path": "xl/worksheets/sheet31.xml"
+      },
+      {
+        "name": "Unit Type (23)",
+        "sheetId": "31",
+        "state": "visible",
+        "path": "xl/worksheets/sheet32.xml"
+      },
+      {
+        "name": "Unit Type (24)",
+        "sheetId": "32",
+        "state": "visible",
+        "path": "xl/worksheets/sheet33.xml"
+      },
+      {
+        "name": "Unit Type (25)",
+        "sheetId": "33",
+        "state": "visible",
+        "path": "xl/worksheets/sheet34.xml"
+      },
+      {
+        "name": "Unit Type (26)",
+        "sheetId": "34",
+        "state": "visible",
+        "path": "xl/worksheets/sheet35.xml"
+      },
+      {
+        "name": "Unit Type (27)",
+        "sheetId": "35",
+        "state": "visible",
+        "path": "xl/worksheets/sheet36.xml"
+      },
+      {
+        "name": "Unit Type (28)",
+        "sheetId": "36",
+        "state": "visible",
+        "path": "xl/worksheets/sheet37.xml"
+      },
+      {
+        "name": "Unit Type (29)",
+        "sheetId": "37",
+        "state": "visible",
+        "path": "xl/worksheets/sheet38.xml"
+      },
+      {
+        "name": "Unit Type (30)",
+        "sheetId": "38",
+        "state": "visible",
+        "path": "xl/worksheets/sheet39.xml"
+      },
+      {
+        "name": "Unit Type (31)",
+        "sheetId": "39",
+        "state": "visible",
+        "path": "xl/worksheets/sheet40.xml"
+      },
+      {
+        "name": "Unit Type (32)",
+        "sheetId": "40",
+        "state": "visible",
+        "path": "xl/worksheets/sheet41.xml"
+      },
+      {
+        "name": "Unit Type (33)",
+        "sheetId": "41",
+        "state": "visible",
+        "path": "xl/worksheets/sheet42.xml"
+      },
+      {
+        "name": "Unit Type (34)",
+        "sheetId": "42",
+        "state": "visible",
+        "path": "xl/worksheets/sheet43.xml"
+      },
+      {
+        "name": "Unit Type (35)",
+        "sheetId": "43",
+        "state": "visible",
+        "path": "xl/worksheets/sheet44.xml"
+      },
+      {
+        "name": "Unit Type (36)",
+        "sheetId": "44",
+        "state": "visible",
+        "path": "xl/worksheets/sheet45.xml"
+      },
+      {
+        "name": "Unit Type (37)",
+        "sheetId": "45",
+        "state": "visible",
+        "path": "xl/worksheets/sheet46.xml"
+      },
+      {
+        "name": "Unit Type (38)",
+        "sheetId": "46",
+        "state": "visible",
+        "path": "xl/worksheets/sheet47.xml"
+      },
+      {
+        "name": "Unit Type (39)",
+        "sheetId": "47",
+        "state": "visible",
+        "path": "xl/worksheets/sheet48.xml"
+      },
+      {
+        "name": "Unit Type (40)",
+        "sheetId": "48",
+        "state": "visible",
+        "path": "xl/worksheets/sheet49.xml"
+      },
+      {
+        "name": "Unit Type (41)",
+        "sheetId": "49",
+        "state": "visible",
+        "path": "xl/worksheets/sheet50.xml"
+      },
+      {
+        "name": "Unit Type (42)",
+        "sheetId": "50",
+        "state": "visible",
+        "path": "xl/worksheets/sheet51.xml"
+      },
+      {
+        "name": "Unit Type (43)",
+        "sheetId": "51",
+        "state": "visible",
+        "path": "xl/worksheets/sheet52.xml"
+      },
+      {
+        "name": "Unit Type (44)",
+        "sheetId": "52",
+        "state": "visible",
+        "path": "xl/worksheets/sheet53.xml"
+      },
+      {
+        "name": "Unit Type (45)",
+        "sheetId": "53",
+        "state": "visible",
+        "path": "xl/worksheets/sheet54.xml"
+      },
+      {
+        "name": "Unit Type (46)",
+        "sheetId": "54",
+        "state": "visible",
+        "path": "xl/worksheets/sheet55.xml"
+      },
+      {
+        "name": "Unit Type (47)",
+        "sheetId": "55",
+        "state": "visible",
+        "path": "xl/worksheets/sheet56.xml"
+      },
+      {
+        "name": "Unit Type (48)",
+        "sheetId": "56",
+        "state": "visible",
+        "path": "xl/worksheets/sheet57.xml"
+      },
+      {
+        "name": "Unit Type (49)",
+        "sheetId": "57",
+        "state": "visible",
+        "path": "xl/worksheets/sheet58.xml"
+      },
+      {
+        "name": "Unit Type (50)",
+        "sheetId": "58",
+        "state": "visible",
+        "path": "xl/worksheets/sheet59.xml"
+      }
+    ],
+    "defined_names": [
+      {
+        "name": "cabcolor",
+        "localSheetId": "5",
+        "hidden": null,
+        "value": "[1]OrderForm!$R$15"
+      },
+      {
+        "name": "cabcolor",
+        "localSheetId": "3",
+        "hidden": null,
+        "value": "[1]OrderForm!$R$15"
+      },
+      {
+        "name": "cabcolor",
+        "localSheetId": null,
+        "hidden": null,
+        "value": "[2]OrderForm!$Q$15"
+      },
+      {
+        "name": "cabprice",
+        "localSheetId": "5",
+        "hidden": null,
+        "value": "[1]OrderForm!$R$16"
+      },
+      {
+        "name": "cabprice",
+        "localSheetId": "3",
+        "hidden": null,
+        "value": "[1]OrderForm!$R$16"
+      },
+      {
+        "name": "cabprice",
+        "localSheetId": null,
+        "hidden": null,
+        "value": "[2]OrderForm!$Q$16"
+      },
+      {
+        "name": "\u7269\u6599",
+        "localSheetId": null,
+        "hidden": null,
+        "value": "#REF!"
+      }
+    ]
+  },
+  "sheet_summary": [
+    {
+      "sheet": "Summary Sheet",
+      "state": "visible",
+      "cell_count": 413,
+      "formula_count": 218,
+      "keyword_hit_count": 23,
+      "merged_range_count": 20
+    },
+    {
+      "sheet": "Framed Catalog List Price",
+      "state": "hidden",
+      "cell_count": 3676,
+      "formula_count": 230,
+      "keyword_hit_count": 8,
+      "merged_range_count": 9
+    },
+    {
+      "sheet": "Framed Accessory List Price",
+      "state": "hidden",
+      "cell_count": 906,
+      "formula_count": 60,
+      "keyword_hit_count": 8,
+      "merged_range_count": 17
+    },
+    {
+      "sheet": "Frameless Catalog List Price",
+      "state": "hidden",
+      "cell_count": 5283,
+      "formula_count": 2018,
+      "keyword_hit_count": 1717,
+      "merged_range_count": 23
+    },
+    {
+      "sheet": "Pwood & PB List",
+      "state": "hidden",
+      "cell_count": 3144,
+      "formula_count": 16,
+      "keyword_hit_count": 3,
+      "merged_range_count": 6
+    },
+    {
+      "sheet": "Frameless Accessory List Price",
+      "state": "hidden",
+      "cell_count": 1276,
+      "formula_count": 80,
+      "keyword_hit_count": 12,
+      "merged_range_count": 34
+    },
+    {
+      "sheet": "Margin Data",
+      "state": "hidden",
+      "cell_count": 62,
+      "formula_count": 16,
+      "keyword_hit_count": 40,
+      "merged_range_count": 41
+    },
+    {
+      "sheet": "List",
+      "state": "hidden",
+      "cell_count": 761,
+      "formula_count": 104,
+      "keyword_hit_count": 7,
+      "merged_range_count": 1
+    },
+    {
+      "sheet": "TOTAL CABS AND TRIM (LOCKED)",
+      "state": "hidden",
+      "cell_count": 9750,
+      "formula_count": 9747,
+      "keyword_hit_count": 3250,
+      "merged_range_count": 0
+    },
+    {
+      "sheet": "Unit Type",
+      "state": "visible",
+      "cell_count": 455,
+      "formula_count": 250,
+      "keyword_hit_count": 251,
+      "merged_range_count": 23
+    },
+    {
+      "sheet": "Unit Type (2)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (3)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (4)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (5)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (6)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (7)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (8)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (9)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (10)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (11)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (12)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (13)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (14)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (15)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (16)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (17)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (18)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (19)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (20)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (21)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (22)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (23)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (24)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (25)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (26)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (27)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (28)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (29)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (30)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (31)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (32)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (33)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (34)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (35)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (36)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (37)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (38)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (39)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (40)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (41)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (42)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (43)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (44)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (45)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (46)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (47)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (48)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (49)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    },
+    {
+      "sheet": "Unit Type (50)",
+      "state": "visible",
+      "cell_count": 452,
+      "formula_count": 251,
+      "keyword_hit_count": 250,
+      "merged_range_count": 21
+    }
+  ]
+}

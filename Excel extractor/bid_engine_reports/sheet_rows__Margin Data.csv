@@ -1,0 +1,27 @@
+row,A,B,D
+1,Margin Data,,
+2,Required Inputs,,Information needed to calculate Margin Data. Please adjust as needed.
+3,Handle Markup per item:,0.7,Enter how much markup we are applying for each handle unit
+4,Cost per truck to AZ,2800,"Enter how much it will cost (on average, with room for adjustment) to ship the cabs flat to PHX warehouse"
+5,Cost per truck to Job,1200,"Enter how much it will cost (on average, with room for adjustment) to ship the cabs assembled from PHX warehouse to Job Site"
+6,Cost to Build:,20,How much is it going to cost for us to build the cabinets ($20 is standard)
+8,Revenue,,
+9,Cabinet Revenue:,'Summary Sheet'!E54,Amount we are charging for cabinets
+10,Build Revenue:,'Summary Sheet'!E56,amount we are charging for building cabs
+11,Total Handle Revenue:,('Summary Sheet'!J54)*('Summary Sheet'!M8),amount we are charging for handles/hardware
+12,Shipping Revenue:,'Summary Sheet'!E57,amount we are charging for shipping
+13,Total Revenue:,SUM(B9:C12),
+15,Costs,,
+16,Cabinet Cost:,"IF('Summary Sheet'!M2=""Framed"",List!C20*B28,IF('Summary Sheet'!M2=""Frameless"",List!D20*B28))",How much we are buying the cabinets for
+17,Build Cost:,B6*'Summary Sheet'!F54,"If the build is being completed by someone else, how much are they charging?"
+18,Handle Cost:,('Summary Sheet'!M8-'Margin Data'!B3:C3)*'Summary Sheet'!J54,How much we are buying the handles for
+19,Shipping:,,
+20,Shipping to AZ:,"SUM(ROUNDUP('Summary Sheet'!F54/800,0)*B4)",Flatpack delivery of cabinets to AZ warehouse (800 cabs per truck)
+21,Shipping to Job:,"SUM(ROUNDUP('Summary Sheet'!F54/300,0)*B5)",Delivery of assembled cabinets to job site (300 cabs per truck)
+22,Total Shipping,"SUM(B20,B21)",
+23,Total Cost:,"SUM(B16:C18,B22)",
+25,Gross Profit:,B13-B23,Difference between estimated take and anticipated costs
+26,Gross Profit Margin:,B25/'Summary Sheet'!E58,"""Gross"" as a percentage of job cost (not including install)"
+28,Cabinet Retail Price:,'Summary Sheet'!E54/'Summary Sheet'!M6,
+29,Cabinet Profit:,B9-B16,
+30,"Ignore these, these are just here for formulaic purposes",,
