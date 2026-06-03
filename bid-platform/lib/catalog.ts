@@ -1,5 +1,5 @@
 import catalogData from './catalog-data.json';
-import type { CatalogEntry, CabinetStyle, BoxConstruction } from './types';
+import type { CatalogEntry, FramelessItem, CabinetStyle, BoxConstruction } from './types';
 
 export const FRAMED_FINISHES = catalogData.framed.finishes as string[];
 export const FRAMELESS_FINISHES = catalogData.frameless.finishes as string[];
@@ -40,11 +40,10 @@ export function getListPrice(
     const framedItem = item as { prices?: Record<string, number> };
     return framedItem.prices?.[finish] ?? 0;
   } else {
-    const framelessItem = item as { pricesByBox?: Record<string, Record<string, number>>; prices?: Record<string, number> };
+    const framelessItem = item as FramelessItem;
     if (framelessItem.pricesByBox) {
       return framelessItem.pricesByBox[boxConstruction]?.[finish] ?? 0;
     }
-    // Accessories use flat prices
     return framelessItem.prices?.[finish] ?? 0;
   }
 }

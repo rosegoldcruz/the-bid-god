@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Plus, Trash2, ChevronDown, ChevronUp, GripVertical } from 'lucide-react';
+import { Plus, Trash2, ChevronDown, ChevronUp } from 'lucide-react';
 import type { UnitType, BidState, ComputedUnitType } from '@/lib/types';
 import { fmt } from '@/lib/calculator';
 import SkuCombobox from './SkuCombobox';
@@ -145,8 +145,8 @@ export default function UnitTypeCard({ unitType, computed, state, onUpdate, onDe
                 </div>
               )}
 
-              {unitType.cabinets.map((cab, idx) => {
-                const computedLine = computed?.cabinets[idx];
+              {unitType.cabinets.map((cab) => {
+                const computedLine = computed?.cabinets.find(c => c.id === cab.id);
                 return (
                   <div key={cab.id} className="grid items-center gap-2" style={{ gridTemplateColumns: '1fr 72px 90px 90px auto' }}>
                     <SkuCombobox
@@ -216,8 +216,8 @@ export default function UnitTypeCard({ unitType, computed, state, onUpdate, onDe
                 </div>
               )}
 
-              {unitType.accessories.map((acc, idx) => {
-                const computedLine = computed?.accessories[idx];
+              {unitType.accessories.map((acc) => {
+                const computedLine = computed?.accessories.find(a => a.id === acc.id);
                 return (
                   <div key={acc.id} className="grid items-center gap-2" style={{ gridTemplateColumns: '1fr 72px 90px 90px auto' }}>
                     <SkuCombobox

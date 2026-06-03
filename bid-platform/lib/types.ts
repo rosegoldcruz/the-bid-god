@@ -14,9 +14,11 @@ export interface FramedItem extends CatalogItem {
   pricesByBox?: never;
 }
 
+// Frameless cabinets use pricesByBox (keyed by BoxConstruction then finish).
+// Frameless accessories use flat prices (keyed by finish only) — same shape as FramedItem.
 export interface FramelessItem extends CatalogItem {
-  pricesByBox: Record<string, Record<string, number>>;
-  prices?: never;
+  pricesByBox?: Record<string, Record<string, number>>;
+  prices?: Record<string, number>;
 }
 
 export type CatalogEntry = FramedItem | FramelessItem;

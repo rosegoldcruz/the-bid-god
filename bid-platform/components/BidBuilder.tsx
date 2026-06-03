@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo } from 'react';
 import { Plus, ChevronDown, Save, Send, Building2, RotateCcw } from 'lucide-react';
 import toast from 'react-hot-toast';
 import type { BidState, UnitType, CabinetStyle, BoxConstruction } from '@/lib/types';

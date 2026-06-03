@@ -110,7 +110,8 @@ export function computeBidSummary(state: BidState): BidSummary {
 
   const buildRevenue = totalCabinets * BUILD_COST_PER_BOX;
   const handleRevenue = totalHandles * HANDLE_PRICE_PER_UNIT;
-  const shippingRevenue = totalUnitQty * SHIPPING_PER_UNIT;
+  const shippingUnitQty = computedUnitTypes.filter(ut => ut.totalBuildingAmount > 0).reduce((s, ut) => s + ut.quantity, 0);
+  const shippingRevenue = shippingUnitQty * SHIPPING_PER_UNIT;
   const totalRevenue = cabinetRevenue + buildRevenue + handleRevenue + shippingRevenue;
 
   const cabinetCost = totalListPrice * purchaseFactor;

@@ -2,7 +2,7 @@
 
 import type { BidSummary } from '@/lib/types';
 import { fmt, fmtPct } from '@/lib/calculator';
-import { TrendingUp, Package, Wrench, Truck, DollarSign, BarChart3 } from 'lucide-react';
+import { TrendingUp, Package, DollarSign, BarChart3 } from 'lucide-react';
 
 interface Props {
   summary: BidSummary;
@@ -13,7 +13,7 @@ function Row({ label, value, bold, color }: { label: string; value: string; bold
   return (
     <div className={`flex items-center justify-between py-1.5 ${bold ? 'border-t border-gray-100 mt-1 pt-2.5' : ''}`}>
       <span className={`text-sm ${bold ? 'font-semibold text-slate-800' : 'text-slate-500'}`}>{label}</span>
-      <span className={`text-sm font-${bold ? 'bold' : 'semibold'} ${color ?? (bold ? 'text-slate-900' : 'text-slate-700')}`}>{value}</span>
+      <span className={`text-sm ${bold ? 'font-bold' : 'font-semibold'} ${color ?? (bold ? 'text-slate-900' : 'text-slate-700')}`}>{value}</span>
     </div>
   );
 }

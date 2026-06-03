@@ -12438,7 +12438,13 @@
         "category": "Miscellanious",
         "prices": {
           "Natural Oak": 67.28,
-          "White Oak": 67.28
+          "White Oak": 67.28,
+          "Glossy White": 109.6,
+          "Glossy Grey": 109.6,
+          "Matte White": 109.6,
+          "Matte Grey": 109.6,
+          "Matte Blue": 109.6,
+          "Glossy Black": 109.6
         },
         "handleCount": 0,
         "isAccessory": true
@@ -12473,21 +12479,6 @@
           "Matte Grey": 250.47,
           "Matte Blue": 250.47,
           "Glossy Black": 250.47
-        },
-        "handleCount": 0,
-        "isAccessory": true
-      },
-      {
-        "sku": "*False Drawer Front 38 * 6",
-        "description": "",
-        "category": "Miscellanious",
-        "prices": {
-          "Glossy White": 109.6,
-          "Glossy Grey": 109.6,
-          "Matte White": 109.6,
-          "Matte Grey": 109.6,
-          "Matte Blue": 109.6,
-          "Glossy Black": 109.6
         },
         "handleCount": 0,
         "isAccessory": true
